@@ -4659,7 +4659,37 @@ G2L_MODULES[G2L["ba"]] = {
 G2L_MODULES[G2L["fb"]] = {
 	Closure = function()
 		local script = G2L["fb"];local BA_ = {
-			["Catwalk Glam Animation"] = {
+			["Doll Animation"] = {
+				climb = {
+					ClimbAnim = "http://www.roblox.com/asset/?id=112371892133970",
+				},
+				fall = {
+					FallAnim = "http://www.roblox.com/asset/?id=81027444073311",
+				},
+				jump = {
+					JumpAnim = "http://www.roblox.com/asset/?id=75369057994828",
+				},
+				run = {
+					RunAnim = "http://www.roblox.com/asset/?id=129768396663808",
+				},
+				idle = {
+					Animation2 = "http://www.roblox.com/asset/?id=115529157356739",
+					Animation1 = "http://www.roblox.com/asset/?id=83032187271383",
+				},
+				pose = {
+					StylishPose = "http://www.roblox.com/asset/?id=87105332133518",
+				},
+				swim = {
+					Swim = "http://www.roblox.com/asset/?id=112410424297158",
+				},
+				swimidle = {
+					SwimIdle = "http://www.roblox.com/asset/?id=95530922515936",
+				},
+				walk = {
+					WalkAnim = "http://www.roblox.com/asset/?id=78434960966537",
+				},
+			},
+            ["Catwalk Glam Animation"] = {
 				climb = {
 					ClimbAnim = "http://www.roblox.com/asset/?id=119377220967554",
 				},
